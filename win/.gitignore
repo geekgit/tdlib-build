@@ -1,4 +1,5 @@
 vcpkg/
+td/
 td-main-*/
 td-csharp-*/
 *.zip
