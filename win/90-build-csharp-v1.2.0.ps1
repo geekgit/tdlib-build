@@ -25,7 +25,7 @@ Rename-Item $TdlibDirOriginal $TdLibDir
 cd $CsharpPath
 mkdir build
 cd build
-cmake -DTD_ENABLE_DOTNET=ON -DCMAKE_TOOLCHAIN_FILE=..\..\..\vcpkg\scripts\buildsystems\vcpkg.cmake ../../..
+cmake -DTD_ENABLE_DOTNET=ON -DCMAKE_TOOLCHAIN_FILE=C:\vcpkg\scripts\buildsystems\vcpkg.cmake ../../..
 cmake --build . --config Release
 cmake --build . --config Debug
 Read-Host -Prompt "Press Enter to exit..."

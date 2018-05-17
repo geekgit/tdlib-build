@@ -12,7 +12,6 @@ $CsharpPath=-join($TdLibDir,'\example\csharp')
 cd $CsharpPath
 mkdir build
 cd build
-cmake -DTD_ENABLE_DOTNET=ON -DCMAKE_TOOLCHAIN_FILE=..\..\..\vcpkg\scripts\buildsystems\vcpkg.cmake ../../..
-cmake --build . --config Release
-cmake --build . --config Debug
-Read-Host -Prompt "Press Enter to exit..."
+& cmake.exe  -DTD_ENABLE_DOTNET=ON -DCMAKE_TOOLCHAIN_FILE=C:\vcpkg\scripts\buildsystems\vcpkg.cmake ../../..
+& cmake.exe --build . --config Release
+& cmake.exe --build . --config Debug

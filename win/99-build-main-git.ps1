@@ -12,6 +12,5 @@ $MainPath=$TdLibDir
 cd $MainPath
 mkdir build
 cd build
-cmake -DCMAKE_TOOLCHAIN_FILE=..\..\vcpkg\scripts\buildsystems\vcpkg.cmake ..
-cmake --build .
-Read-Host -Prompt "Press Enter to exit..."
+& cmake.exe -DCMAKE_TOOLCHAIN_FILE=С:\vcpkg\scripts\buildsystems\vcpkg.cmake ..
+& cmake.exe --build .

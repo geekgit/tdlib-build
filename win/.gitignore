@@ -3,3 +3,4 @@ td/
 td-main-*/
 td-csharp-*/
 *.zip
+*.log

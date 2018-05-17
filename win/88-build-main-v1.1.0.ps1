@@ -25,6 +25,6 @@ Rename-Item $TdlibDirOriginal $TdLibDir
 cd $MainPath
 mkdir build
 cd build
-cmake -DCMAKE_TOOLCHAIN_FILE=..\..\vcpkg\scripts\buildsystems\vcpkg.cmake ..
+cmake -DCMAKE_TOOLCHAIN_FILE=C:\vcpkg\scripts\buildsystems\vcpkg.cmake ..
 cmake --build .
 Read-Host -Prompt "Press Enter to exit..."
