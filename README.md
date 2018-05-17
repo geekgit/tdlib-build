@@ -13,7 +13,7 @@
 
 ## Сборка Linux-версии
 
-Требуется Docker
+Требуется Docker.
 
 Клонируем текущий репозиторий через `git clone https://github.com/geekgit/tdlib-build`, затем заходим в директорию linux.
 
