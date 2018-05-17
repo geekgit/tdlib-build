@@ -39,7 +39,7 @@ chmod +x build.sh
 * cmake
 * gperf
 * vcpkg
-* пакеты `openssl:x64-windows`, `penssl:x86-windows` `zlib:x64-windows`, `zlib:x86-windows` для vcpkg
+* пакеты `openssl:x64-windows`, `openssl:x86-windows` `zlib:x64-windows`, `zlib:x86-windows` для vcpkg
 
 Для установки зависимостей можно воспользоваться скриптами `0*.ps1` и `1*.ps1`
 
