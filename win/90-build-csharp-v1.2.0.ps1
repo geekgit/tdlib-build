@@ -1,4 +1,4 @@
-$Prefix='csharp'
+﻿$Prefix='csharp'
 $TdlibVersion='1.2.0'
 $TdlibArchive=-join('v',$TdlibVersion,'.zip')
 $TdlibArchiveUrl=-join('https://github.com/tdlib/td/archive/',$TdlibArchive)

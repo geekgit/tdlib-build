@@ -1,4 +1,4 @@
-$Prefix='main'
+﻿$Prefix='main'
 $TdlibVersion='1.2.0'
 $TdlibArchive=-join('v',$TdlibVersion,'.zip')
 $TdlibArchiveUrl=-join('https://github.com/tdlib/td/archive/',$TdlibArchive)
@@ -26,5 +26,5 @@ cd $MainPath
 mkdir build
 cd build
 cmake -DCMAKE_TOOLCHAIN_FILE=C:\vcpkg\scripts\buildsystems\vcpkg.cmake ..
-cmake --build .
+cmake --build . --config Release
 Read-Host -Prompt "Press Enter to exit..."

@@ -1,0 +1,8 @@
+vcpkg/
+td/
+td-main-*/
+td-csharp-*/
+*.zip
+*.7z
+*.log
+*.tmp
